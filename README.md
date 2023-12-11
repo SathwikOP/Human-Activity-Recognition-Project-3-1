@@ -1,10 +1,5 @@
-- 👋 Hi, I’m @SathwikOP
-- 👀 I’m interested in Data Science (Machine Learning)
-- 🌱 I’m currently learning Machine Learning and Data Science with Python
-- 💞️ I’m looking to collaborate on ML and Data Science Projects
-- 📫 How to reach me 8179478025 and sathwikkrishna33@gmail.com
-
-<!---
-SathwikOP/SathwikOP is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+In this project, we analyzed a dataset from the WISDM (Wireless Sensor Data Mining) Lab, which consists of accelerometer and gyroscope data collected from a smartwatch worn by participants performing various activities. The objective was to preprocess the data and prepare it for further analysis or machine learning models.
+We started by loading the raw data and performed initial data exploration. We visualized the accelerometer and gyroscope readings for each activity, which helped us understand the patterns and variations in the data.
+Next, we combined multiple files to create a consolidated dataset and examined the distribution of activities and participants in the dataset. We observed that the dataset was imbalanced, with certain activities and participants having more data compared to others.
+After preprocessing the data, we split it into training and testing sets for future analysis or model building. We ensured that the class distribution was maintained in both sets to avoid bias.
+Then we implemented various Machine Learning Algorithms to train the model and used measure metrics such as accuracy, precision, recall, and F1 score to assess the model's performance. After using 5 ML Algorithms ( SVM, KNN – 78%, Random Forest – 65%, Logistic Regression – 63% and Decision Trees – 52%), we found that SVM gave the highest Accuracy score of 84 % . 
